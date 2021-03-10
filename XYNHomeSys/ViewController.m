@@ -15,6 +15,10 @@
 #import "AlertViewController.h"
 #import "GDMapViewController.h"
 #import "Toast.h"
+#import "ScoketViewController.h"
+#import <objc/message.h>
+#import "KVCObject.h"
+
 
 @interface ViewController ()
 @property (nonatomic, strong) BankObject *obj;
@@ -25,6 +29,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
 }
 
 
@@ -67,6 +72,10 @@
 
 - (IBAction)allMap:(id)sender {
     GDMapViewController *vc = [[GDMapViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)toSocket:(id)sender {
+    ScoketViewController *vc = [[ScoketViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

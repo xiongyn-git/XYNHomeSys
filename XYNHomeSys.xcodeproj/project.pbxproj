@@ -16,6 +16,13 @@
 		2010EED425DF6B520084D1A8 /* BankObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010EED325DF6B520084D1A8 /* BankObject.m */; };
 		2010EEEC25E0BED50084D1A8 /* KVCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010EEEB25E0BED50084D1A8 /* KVCObject.m */; };
 		2010EEF325E103F90084D1A8 /* XYNLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010EEF225E103F90084D1A8 /* XYNLog.m */; };
+		2024836325F21968007B083C /* XYNToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024836225F21968007B083C /* XYNToastView.m */; };
+		2024836925F21B5C007B083C /* XYNToastDefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024836825F21B5C007B083C /* XYNToastDefaultView.m */; };
+		2024837925F52952007B083C /* ScoketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2024837625F52952007B083C /* ScoketViewController.xib */; };
+		2024837A25F52952007B083C /* ScoketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024837825F52952007B083C /* ScoketViewController.m */; };
+		2024838025F52A7C007B083C /* GCDSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024837F25F52A7C007B083C /* GCDSocketManager.m */; };
+		2031C23E25F5CBFD001A5DE2 /* RocketSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2031C23D25F5CBFD001A5DE2 /* RocketSocketManager.m */; };
+		2031C24425F608D1001A5DE2 /* MQTTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2031C24325F608D1001A5DE2 /* MQTTManager.m */; };
 		203DC7AB25F1E97700745FC6 /* XYNToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 203DC7A925F1E97700745FC6 /* XYNToastManager.m */; };
 		2078E72925E4E0250080E572 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2078E72825E4E0250080E572 /* UIView+Frame.m */; };
 		2078E78225E8C5210080E572 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2078E78025E8C5210080E572 /* AlertViewController.m */; };
@@ -89,6 +96,19 @@
 		2010EEEB25E0BED50084D1A8 /* KVCObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCObject.m; sourceTree = "<group>"; };
 		2010EEF125E103F90084D1A8 /* XYNLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYNLog.h; sourceTree = "<group>"; };
 		2010EEF225E103F90084D1A8 /* XYNLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYNLog.m; sourceTree = "<group>"; };
+		2024836125F21968007B083C /* XYNToastView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYNToastView.h; sourceTree = "<group>"; };
+		2024836225F21968007B083C /* XYNToastView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYNToastView.m; sourceTree = "<group>"; };
+		2024836725F21B5C007B083C /* XYNToastDefaultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYNToastDefaultView.h; sourceTree = "<group>"; };
+		2024836825F21B5C007B083C /* XYNToastDefaultView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYNToastDefaultView.m; sourceTree = "<group>"; };
+		2024837625F52952007B083C /* ScoketViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScoketViewController.xib; sourceTree = "<group>"; };
+		2024837725F52952007B083C /* ScoketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoketViewController.h; sourceTree = "<group>"; };
+		2024837825F52952007B083C /* ScoketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoketViewController.m; sourceTree = "<group>"; };
+		2024837E25F52A7C007B083C /* GCDSocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDSocketManager.h; sourceTree = "<group>"; };
+		2024837F25F52A7C007B083C /* GCDSocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDSocketManager.m; sourceTree = "<group>"; };
+		2031C23C25F5CBFD001A5DE2 /* RocketSocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RocketSocketManager.h; sourceTree = "<group>"; };
+		2031C23D25F5CBFD001A5DE2 /* RocketSocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RocketSocketManager.m; sourceTree = "<group>"; };
+		2031C24225F608D1001A5DE2 /* MQTTManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQTTManager.h; sourceTree = "<group>"; };
+		2031C24325F608D1001A5DE2 /* MQTTManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQTTManager.m; sourceTree = "<group>"; };
 		203DC7A925F1E97700745FC6 /* XYNToastManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNToastManager.m; sourceTree = "<group>"; };
 		203DC7AA25F1E97700745FC6 /* XYNToastManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNToastManager.h; sourceTree = "<group>"; };
 		2078E72725E4E0250080E572 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
@@ -266,11 +286,31 @@
 			path = CustomView;
 			sourceTree = "<group>";
 		};
+		2024837525F52919007B083C /* Scoket */ = {
+			isa = PBXGroup;
+			children = (
+				2024837725F52952007B083C /* ScoketViewController.h */,
+				2024837825F52952007B083C /* ScoketViewController.m */,
+				2024837625F52952007B083C /* ScoketViewController.xib */,
+				2024837E25F52A7C007B083C /* GCDSocketManager.h */,
+				2024837F25F52A7C007B083C /* GCDSocketManager.m */,
+				2031C23C25F5CBFD001A5DE2 /* RocketSocketManager.h */,
+				2031C23D25F5CBFD001A5DE2 /* RocketSocketManager.m */,
+				2031C24225F608D1001A5DE2 /* MQTTManager.h */,
+				2031C24325F608D1001A5DE2 /* MQTTManager.m */,
+			);
+			path = Scoket;
+			sourceTree = "<group>";
+		};
 		203DC7A825F1E97700745FC6 /* XYNToast */ = {
 			isa = PBXGroup;
 			children = (
-				203DC7A925F1E97700745FC6 /* XYNToastManager.m */,
 				203DC7AA25F1E97700745FC6 /* XYNToastManager.h */,
+				203DC7A925F1E97700745FC6 /* XYNToastManager.m */,
+				2024836125F21968007B083C /* XYNToastView.h */,
+				2024836225F21968007B083C /* XYNToastView.m */,
+				2024836725F21B5C007B083C /* XYNToastDefaultView.h */,
+				2024836825F21B5C007B083C /* XYNToastDefaultView.m */,
 			);
 			path = XYNToast;
 			sourceTree = "<group>";
@@ -365,6 +405,7 @@
 		209CEF5225C167FA00854153 /* XYNHomeSys */ = {
 			isa = PBXGroup;
 			children = (
+				2024837525F52919007B083C /* Scoket */,
 				2078E74525E67CBE0080E572 /* Map */,
 				2010EF0525E3E0010084D1A8 /* CustomView */,
 				2010EEF025E103E20084D1A8 /* Base */,
@@ -558,6 +599,7 @@
 				209CEF5E25C167FA00854153 /* Main.storyboard in Resources */,
 				2095AF7225E4C2B0003FF5A6 /* FirstCell.xib in Resources */,
 				208365B325EF2D1E006AF9A5 /* GDMapViewController.xib in Resources */,
+				2024837925F52952007B083C /* ScoketViewController.xib in Resources */,
 				2095AF4525E49F55003FF5A6 /* TableViewController.xib in Resources */,
 				2078E78325E8C5210080E572 /* AlertViewController.xib in Resources */,
 			);
@@ -732,6 +774,7 @@
 				208365A825EF2C8C006AF9A5 /* MapViewController.m in Sources */,
 				203DC7AB25F1E97700745FC6 /* XYNToastManager.m in Sources */,
 				2078E78225E8C5210080E572 /* AlertViewController.m in Sources */,
+				2024838025F52A7C007B083C /* GCDSocketManager.m in Sources */,
 				2010EEF325E103F90084D1A8 /* XYNLog.m in Sources */,
 				2010EEEC25E0BED50084D1A8 /* KVCObject.m in Sources */,
 				209CEF6925C167FA00854153 /* main.m in Sources */,
@@ -740,10 +783,15 @@
 				2095AF4425E49F55003FF5A6 /* TableViewController.m in Sources */,
 				2095AF6425E4B39D003FF5A6 /* FirstModel.m in Sources */,
 				209CEF5525C167FA00854153 /* AppDelegate.m in Sources */,
+				2031C23E25F5CBFD001A5DE2 /* RocketSocketManager.m in Sources */,
 				2008FCD825E4D2320028C611 /* GMTableViewProtocol.m in Sources */,
 				209CEF6125C167FA00854153 /* XYNHomeSys.xcdatamodeld in Sources */,
 				2010EEC125DE7D7C0084D1A8 /* AFNetViewController.m in Sources */,
+				2024836325F21968007B083C /* XYNToastView.m in Sources */,
 				20D19EF925EF5014009A475B /* CSToastManager.m in Sources */,
+				2031C24425F608D1001A5DE2 /* MQTTManager.m in Sources */,
+				2024836925F21B5C007B083C /* XYNToastDefaultView.m in Sources */,
+				2024837A25F52952007B083C /* ScoketViewController.m in Sources */,
 				208365AA25EF2C8C006AF9A5 /* XYNAnnotation.m in Sources */,
 				208365B225EF2D1E006AF9A5 /* GDMapViewController.m in Sources */,
 				2078E72925E4E0250080E572 /* UIView+Frame.m in Sources */,

@@ -16,7 +16,12 @@
 #define kScreenHeight ([UIScreen mainScreen].bounds.size.height)
 //获取xib试图
 #define kXibView(nibName) [[NSBundle mainBundle]loadNibNamed:nibName owner:nil options:nil].firstObject
-
+//打印
+//#ifdef DEBUG
+//#define NSLog(format, ...) printf("\n[%s] %s [第%d行] %s\n", TIME, FUNCTION, LINE, [[NSString stringWithFormat:format, ## VA_ARGS] UTF8String]);
+//#else
+//#define NSLog(format, ...)
+//#endif
 
 //---------------------------------------------------------------
 #define kGDKey [AMapServices sharedServices].apiKey = @"8e385be3f37eea08eb9ccc2a16bc701f";

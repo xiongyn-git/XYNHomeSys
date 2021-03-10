@@ -25,12 +25,15 @@
 }
 
 + (NSDictionary *)descriptionWithModel:(NSObject *)model {
+
     // 初始化一个字典
     NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
     uint count;
-    // 得到当前classs的所有属性，以及个数
+    // 得到当前classs的所有成员属性，以及个数
     objc_property_t *properties = class_copyPropertyList([model class], &count);
-    
+//    // 获取类的所有成员变量
+//    Ivar *members = class_copyIvarList([KVCObject class], &count);
+//    const char *memberName = ivar_getName(i);
     for (int i = 0; i < count; i++) {
         // 循环并用kvc得到每个属性的值
         objc_property_t property = properties[i];
@@ -47,12 +50,29 @@
             }
             value = arr;
         }
+        
         //没有值的时候不打印属性
         if (value) {
             [dictionary setObject:value forKey:name];
         }
         
+        
 //        // 需要没有值的时候也打印
+//        if([value isKindOfClass:[NSDictionary class]]) {
+//            //获取属性类型
+//            NSString *propertyType = [NSString stringWithCString: property_getAttributes(property) encoding:NSUTF8StringEncoding];
+//
+//            NSRange rangeF = [propertyType rangeOfString:@"@\""];
+//            NSRange rangeL = [propertyType rangeOfString:@"\","];
+//            if(rangeF.location != NSNotFound && rangeL.location != NSNotFound) {
+//                NSString *type = [propertyType substringWithRange:NSMakeRange(rangeF.length +rangeF.location, rangeL.location - rangeF.length - rangeF.location)];
+//                Class sonClass = NSClassFromString(type);
+//                NSObject *sonModel = [[sonClass alloc] init];
+//                [sonModel setValuesForKeysWithDictionary:value];
+//                NSDictionary *sonDic = [XYNLog descriptionWithModel:sonModel];
+//                value = sonDic;
+//            }
+//        }
 //        if(!value) {
 //            //获取属性类型
 //            NSString *propertyType = [NSString stringWithCString: property_getAttributes(property) encoding:NSUTF8StringEncoding];

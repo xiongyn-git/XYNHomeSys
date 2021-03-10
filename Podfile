@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'XYNHomeSys' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -17,6 +17,11 @@ target 'XYNHomeSys' do
     pod 'AMapLocation' #高德定位SDK
     pod 'AMapSearch'   #高德地图搜索SDK
     pod 'AMapTrack'    #高德猎鹰SDK
+
+pod 'CocoaAsyncSocket'
+pod 'SocketRocket'
+pod 'MQTTKit', '~> 0.1.0-next'
+#pod 'ChatKit'
 
   target 'XYNHomeSysTests' do
     inherit! :search_paths

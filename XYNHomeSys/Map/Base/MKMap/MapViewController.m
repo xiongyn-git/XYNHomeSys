@@ -9,6 +9,7 @@
 #import "Toast.h"
 #import "XYNAnnotation.h"
 #import "UIView+Toast.h"
+#import "XYNToastManager.h"
 
 //#import "MapAnnotation.h"
 
@@ -125,6 +126,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    XYNToastManager *a = [XYNToastManager manager];
+//    XYNToastManager *b = [[XYNToastManager alloc] init];
 //    [[Toast sharedSingleton] makeToast:@"王茹涛大傻逼王大傻逼" duration:3];
 //    CFRunLoopRun();
 //

@@ -72,6 +72,14 @@
                                     <action selector="allMap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XGZ-ge-iEU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uqa-Uf-2YS">
+                                <rect key="frame" x="40" y="39" width="136" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="socket"/>
+                                <connections>
+                                    <action selector="toSocket:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aeL-Wx-92g"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

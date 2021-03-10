@@ -70,7 +70,11 @@
                           @"model":@{
                                   @"bankName":@"55",
                                   @"accountForBank":@"66",
-                                  @"accountName":@"77"
+                                  @"accountName":@"77",
+                                  @"sonModel":@{
+                                          @"bankName":@"55",
+                                          @"accountForBank":@"66"
+                                  }
                           }
     };
     KVCObject *kvcModel = [[KVCObject alloc] initWithDic:dic];

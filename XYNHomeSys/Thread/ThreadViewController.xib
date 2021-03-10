@@ -19,12 +19,6 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="uuuuuu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vwH-uG-71F">
-                    <rect key="frame" x="158" y="508" width="162" height="99"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tf6-e7-Pbh">
                     <rect key="frame" x="186" y="307" width="96" height="58"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -33,15 +27,16 @@
                         <action selector="btn:" destination="-1" eventType="touchUpInside" id="CGC-Xy-3UJ"/>
                     </connections>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="uuuuuu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vwH-uG-71F">
+                    <rect key="frame" x="77" y="396" width="147" height="99"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <constraints>
-                <constraint firstItem="vwH-uG-71F" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="IaP-Ch-tSC"/>
-                <constraint firstAttribute="bottom" secondItem="vwH-uG-71F" secondAttribute="bottom" constant="289" id="RLf-7L-R5T"/>
-                <constraint firstAttribute="trailing" secondItem="vwH-uG-71F" secondAttribute="trailing" constant="94" id="WO3-vM-RjU"/>
-                <constraint firstItem="vwH-uG-71F" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="158" id="y9U-bz-hTc"/>
-            </constraints>
             <point key="canvasLocation" x="-255.07246376811597" y="61.607142857142854"/>
         </view>
     </objects>
