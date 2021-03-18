@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //将字典中unicode打印为中文
 + (NSString *)logChineseByDic:(NSDictionary *)dic;
++ (NSString *)logChineseByString:(NSString *)str;
 
 @end
 

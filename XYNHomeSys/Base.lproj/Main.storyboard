@@ -80,6 +80,22 @@
                                     <action selector="toSocket:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aeL-Wx-92g"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="As5-Fg-khd">
+                                <rect key="frame" x="41" y="303" width="136" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="toSave:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aaD-fc-EtM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKP-0F-hQj">
+                                <rect key="frame" x="204" y="304" width="136" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Runloop"/>
+                                <connections>
+                                    <action selector="toRunloop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z0g-Qe-F1X"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

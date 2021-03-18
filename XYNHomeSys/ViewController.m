@@ -18,7 +18,9 @@
 #import "ScoketViewController.h"
 #import <objc/message.h>
 #import "KVCObject.h"
-
+#import "AppDelegate.h"
+#import "UserDefaultViewController.h"
+#import "RunloopViewController.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) BankObject *obj;
@@ -29,7 +31,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    // 创建观察者
+//    CFRunLoopObserverRef observer = CFRunLoopObserverCreateWithHandler(CFAllocatorGetDefault(), kCFRunLoopAllActivities, YES, 0, ^(CFRunLoopObserverRef observer, CFRunLoopActivity activity) {
+//        NSLog(@"监听到RunLoop发生改变---%zd",activity);
+//    });
+//    // 添加观察者到当前RunLoop中
+//    CFRunLoopAddObserver(CFRunLoopGetCurrent(), observer, kCFRunLoopDefaultMode);
+//    // 释放observer，最后添加完需要释放掉
+//    CFRelease(observer);
 }
 
 
@@ -77,6 +86,15 @@
 - (IBAction)toSocket:(id)sender {
     ScoketViewController *vc = [[ScoketViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)toSave:(id)sender {
+    UserDefaultViewController *vc = [[UserDefaultViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)toRunloop:(id)sender {
+    RunloopViewController *vc = [[RunloopViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+
 }
 
 @end

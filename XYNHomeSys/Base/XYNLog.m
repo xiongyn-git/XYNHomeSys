@@ -23,6 +23,11 @@
     desc = [NSString stringWithCString:[desc cStringUsingEncoding:NSUTF8StringEncoding] encoding:NSNonLossyASCIIStringEncoding];
     return desc;
 }
++ (NSString *)logChineseByString:(NSString *)str {
+    str = [NSString stringWithCString:[str cStringUsingEncoding:NSUTF8StringEncoding] encoding:NSNonLossyASCIIStringEncoding];
+    return str;
+}
+
 
 + (NSDictionary *)descriptionWithModel:(NSObject *)model {
 

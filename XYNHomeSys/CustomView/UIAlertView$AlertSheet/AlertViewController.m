@@ -6,6 +6,7 @@
 //
 
 #import "AlertViewController.h"
+#import "YYImageViewController.h"
 
 @interface AlertViewController ()
 
@@ -48,10 +49,12 @@
 
      */
     UIAlertAction* cancelAction = [UIAlertAction actionWithTitle:@"cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-        nil;
+        
     }];
     UIAlertAction* destructiveAction = [UIAlertAction actionWithTitle:@"destructive" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
         NSLog(@"destructive clicked");
+        YYImageViewController *vc = [[YYImageViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
     }];
     UIAlertAction* firstAction = [UIAlertAction actionWithTitle:@"使用相机拍照" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         NSLog(@"使用相机拍照");
@@ -60,8 +63,8 @@
         NSLog(@"使用相册照片");
         }];
     [alert addAction:cancelAction];
-    [alert addAction:firstAction];
     [alert addAction:destructiveAction];
+    [alert addAction:firstAction];
     [alert addAction:secondAction];
     [self presentViewController:alert animated:YES completion:^{
         nil;

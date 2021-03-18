@@ -51,12 +51,23 @@
 		209CEF9825C168B200854153 /* ThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209CEF9525C168B200854153 /* ThreadViewController.m */; };
 		209CEF9925C168B200854153 /* ThreadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 209CEF9725C168B200854153 /* ThreadViewController.xib */; };
 		209EF84225EB560F0080DF4B /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 209EF84125EB560F0080DF4B /* Toast.m */; };
+		20B66B5F25FDB7FC00B81504 /* HomeDicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B66B5D25FDB7FC00B81504 /* HomeDicViewController.m */; };
+		20B66B6025FDB7FC00B81504 /* HomeDicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B66B5E25FDB7FC00B81504 /* HomeDicViewController.xib */; };
+		20B66B6725FDE0F300B81504 /* FileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B66B6625FDE0F300B81504 /* FileUtils.m */; };
+		20B66B7225FDE71600B81504 /* XYNCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B66B7125FDE71600B81504 /* XYNCycleView.m */; };
+		20B66B7D25FE048900B81504 /* YYImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B66B7B25FE048900B81504 /* YYImageViewController.m */; };
+		20B66B7E25FE048900B81504 /* YYImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B66B7C25FE048900B81504 /* YYImageViewController.xib */; };
+		20B66B892600837D00B81504 /* RunloopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B66B872600837D00B81504 /* RunloopViewController.m */; };
+		20B66B8A2600837D00B81504 /* RunloopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B66B882600837D00B81504 /* RunloopViewController.xib */; };
 		20CF387825F1E6A2002DEA90 /* Pods_XYNHomeSys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E1629EADDCE1C1ADDAF7E5 /* Pods_XYNHomeSys.framework */; };
 		20D19EEA25EF4152009A475B /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D19EE925EF4152009A475B /* UIView+Toast.m */; };
 		20D19EF925EF5014009A475B /* CSToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D19EF825EF5014009A475B /* CSToastManager.m */; };
 		20D19F0825EF50E0009A475B /* CSToastStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D19F0725EF50E0009A475B /* CSToastStyle.m */; };
 		20D19F0E25F09706009A475B /* XYNTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D19F0D25F09706009A475B /* XYNTools.m */; };
 		20D19F1425F109EB009A475B /* XYNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D19F1325F109EB009A475B /* XYNUtils.m */; };
+		20E26B5A25FC68D3008031B5 /* UserDefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E26B5825FC68D3008031B5 /* UserDefaultViewController.m */; };
+		20E26B5B25FC68D3008031B5 /* UserDefaultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20E26B5925FC68D3008031B5 /* UserDefaultViewController.xib */; };
+		20E26B6A25FC6E79008031B5 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E26B6925FC6E79008031B5 /* UserModel.m */; };
 		3FAA8F7DC0E9AEB3D2ABA44A /* Pods_XYNHomeSysTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C2ECC15A8463E53FC1D2CE /* Pods_XYNHomeSysTests.framework */; };
 		3FE5554B73AB374D6D70B20D /* Pods_XYNHomeSys_XYNHomeSysUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1B9ED6D7B3C6FC9F3A28A8 /* Pods_XYNHomeSys_XYNHomeSysUITests.framework */; };
 /* End PBXBuildFile section */
@@ -160,6 +171,19 @@
 		209CEF9725C168B200854153 /* ThreadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreadViewController.xib; sourceTree = "<group>"; };
 		209EF84025EB560F0080DF4B /* Toast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toast.h; sourceTree = "<group>"; };
 		209EF84125EB560F0080DF4B /* Toast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Toast.m; sourceTree = "<group>"; };
+		20B66B5C25FDB7FC00B81504 /* HomeDicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeDicViewController.h; sourceTree = "<group>"; };
+		20B66B5D25FDB7FC00B81504 /* HomeDicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeDicViewController.m; sourceTree = "<group>"; };
+		20B66B5E25FDB7FC00B81504 /* HomeDicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeDicViewController.xib; sourceTree = "<group>"; };
+		20B66B6525FDE0F300B81504 /* FileUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileUtils.h; sourceTree = "<group>"; };
+		20B66B6625FDE0F300B81504 /* FileUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileUtils.m; sourceTree = "<group>"; };
+		20B66B7025FDE71600B81504 /* XYNCycleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYNCycleView.h; sourceTree = "<group>"; };
+		20B66B7125FDE71600B81504 /* XYNCycleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYNCycleView.m; sourceTree = "<group>"; };
+		20B66B7A25FE048900B81504 /* YYImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYImageViewController.h; sourceTree = "<group>"; };
+		20B66B7B25FE048900B81504 /* YYImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYImageViewController.m; sourceTree = "<group>"; };
+		20B66B7C25FE048900B81504 /* YYImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YYImageViewController.xib; sourceTree = "<group>"; };
+		20B66B862600837D00B81504 /* RunloopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunloopViewController.h; sourceTree = "<group>"; };
+		20B66B872600837D00B81504 /* RunloopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunloopViewController.m; sourceTree = "<group>"; };
+		20B66B882600837D00B81504 /* RunloopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunloopViewController.xib; sourceTree = "<group>"; };
 		20D19EE825EF4152009A475B /* UIView+Toast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		20D19EE925EF4152009A475B /* UIView+Toast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		20D19EF725EF5014009A475B /* CSToastManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSToastManager.h; sourceTree = "<group>"; };
@@ -170,6 +194,11 @@
 		20D19F0D25F09706009A475B /* XYNTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYNTools.m; sourceTree = "<group>"; };
 		20D19F1225F109EB009A475B /* XYNUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYNUtils.h; sourceTree = "<group>"; };
 		20D19F1325F109EB009A475B /* XYNUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYNUtils.m; sourceTree = "<group>"; };
+		20E26B5725FC68D3008031B5 /* UserDefaultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaultViewController.h; sourceTree = "<group>"; };
+		20E26B5825FC68D3008031B5 /* UserDefaultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDefaultViewController.m; sourceTree = "<group>"; };
+		20E26B5925FC68D3008031B5 /* UserDefaultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDefaultViewController.xib; sourceTree = "<group>"; };
+		20E26B6825FC6E79008031B5 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		20E26B6925FC6E79008031B5 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		4B6E95E90343E620CCC3190C /* Pods-XYNHomeSysTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYNHomeSysTests.debug.xcconfig"; path = "Target Support Files/Pods-XYNHomeSysTests/Pods-XYNHomeSysTests.debug.xcconfig"; sourceTree = "<group>"; };
 		608EAEBDF65CE6F6B726904B /* Pods-XYNHomeSys-XYNHomeSysUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYNHomeSys-XYNHomeSysUITests.debug.xcconfig"; path = "Target Support Files/Pods-XYNHomeSys-XYNHomeSysUITests/Pods-XYNHomeSys-XYNHomeSysUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		66E1629EADDCE1C1ADDAF7E5 /* Pods_XYNHomeSys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYNHomeSys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -232,7 +261,6 @@
 		2010EEC925DF69D90084D1A8 /* KVOKVC */ = {
 			isa = PBXGroup;
 			children = (
-				2010EEDE25DFC6DE0084D1A8 /* Package */,
 				2010EECA25DF6A100084D1A8 /* KvocViewController.h */,
 				2010EECB25DF6A100084D1A8 /* KvocViewController.m */,
 				2010EECC25DF6A100084D1A8 /* KvocViewController.xib */,
@@ -244,16 +272,11 @@
 			path = KVOKVC;
 			sourceTree = "<group>";
 		};
-		2010EEDE25DFC6DE0084D1A8 /* Package */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Package;
-			sourceTree = "<group>";
-		};
 		2010EEF025E103E20084D1A8 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				20B66B6E25FDE60700B81504 /* Tools */,
+				20B66B6425FDE0C700B81504 /* Utils */,
 				203DC7A825F1E97700745FC6 /* XYNToast */,
 				2010EEF125E103F90084D1A8 /* XYNLog.h */,
 				2010EEF225E103F90084D1A8 /* XYNLog.m */,
@@ -280,6 +303,7 @@
 		2010EF0525E3E0010084D1A8 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				20B66B7925FE046300B81504 /* YYImage */,
 				2078E77E25E8C4E50080E572 /* UIAlertView$AlertSheet */,
 				2095AF3D25E49F34003FF5A6 /* TableView */,
 			);
@@ -405,6 +429,9 @@
 		209CEF5225C167FA00854153 /* XYNHomeSys */ = {
 			isa = PBXGroup;
 			children = (
+				20B66B852600836200B81504 /* Runloop */,
+				20E26B5525FC6876008031B5 /* Save */,
+				20E26B5125FB4C7D008031B5 /* Video */,
 				2024837525F52919007B083C /* Scoket */,
 				2078E74525E67CBE0080E572 /* Map */,
 				2010EF0525E3E0010084D1A8 /* CustomView */,
@@ -456,6 +483,90 @@
 				2083659625EE3BFC006AF9A5 /* LockViewController.m */,
 			);
 			path = Thread;
+			sourceTree = "<group>";
+		};
+		20B66B6425FDE0C700B81504 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				20B66B6525FDE0F300B81504 /* FileUtils.h */,
+				20B66B6625FDE0F300B81504 /* FileUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		20B66B6E25FDE60700B81504 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				20B66B6F25FDE61000B81504 /* UITools */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		20B66B6F25FDE61000B81504 /* UITools */ = {
+			isa = PBXGroup;
+			children = (
+				20B66B7025FDE71600B81504 /* XYNCycleView.h */,
+				20B66B7125FDE71600B81504 /* XYNCycleView.m */,
+			);
+			path = UITools;
+			sourceTree = "<group>";
+		};
+		20B66B7925FE046300B81504 /* YYImage */ = {
+			isa = PBXGroup;
+			children = (
+				20B66B7A25FE048900B81504 /* YYImageViewController.h */,
+				20B66B7B25FE048900B81504 /* YYImageViewController.m */,
+				20B66B7C25FE048900B81504 /* YYImageViewController.xib */,
+			);
+			path = YYImage;
+			sourceTree = "<group>";
+		};
+		20B66B852600836200B81504 /* Runloop */ = {
+			isa = PBXGroup;
+			children = (
+				20B66B862600837D00B81504 /* RunloopViewController.h */,
+				20B66B872600837D00B81504 /* RunloopViewController.m */,
+				20B66B882600837D00B81504 /* RunloopViewController.xib */,
+			);
+			path = Runloop;
+			sourceTree = "<group>";
+		};
+		20E26B5125FB4C7D008031B5 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		20E26B5525FC6876008031B5 /* Save */ = {
+			isa = PBXGroup;
+			children = (
+				20E26B6F25FDB7C2008031B5 /* 沙盒 */,
+				20E26B5625FC687F008031B5 /* UserDefaults */,
+			);
+			path = Save;
+			sourceTree = "<group>";
+		};
+		20E26B5625FC687F008031B5 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				20E26B5725FC68D3008031B5 /* UserDefaultViewController.h */,
+				20E26B5825FC68D3008031B5 /* UserDefaultViewController.m */,
+				20E26B5925FC68D3008031B5 /* UserDefaultViewController.xib */,
+				20E26B6825FC6E79008031B5 /* UserModel.h */,
+				20E26B6925FC6E79008031B5 /* UserModel.m */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		20E26B6F25FDB7C2008031B5 /* 沙盒 */ = {
+			isa = PBXGroup;
+			children = (
+				20B66B5C25FDB7FC00B81504 /* HomeDicViewController.h */,
+				20B66B5D25FDB7FC00B81504 /* HomeDicViewController.m */,
+				20B66B5E25FDB7FC00B81504 /* HomeDicViewController.xib */,
+			);
+			path = "沙盒";
 			sourceTree = "<group>";
 		};
 		95A61EA56EC533D9CCA2D501 /* Frameworks */ = {
@@ -590,6 +701,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E26B5B25FC68D3008031B5 /* UserDefaultViewController.xib in Resources */,
 				2010EEC225DE7D7C0084D1A8 /* AFNetViewController.xib in Resources */,
 				2010EECE25DF6A100084D1A8 /* KvocViewController.xib in Resources */,
 				209CEF9925C168B200854153 /* ThreadViewController.xib in Resources */,
@@ -597,8 +709,11 @@
 				209CEF6625C167FA00854153 /* LaunchScreen.storyboard in Resources */,
 				209CEF6325C167FA00854153 /* Assets.xcassets in Resources */,
 				209CEF5E25C167FA00854153 /* Main.storyboard in Resources */,
+				20B66B8A2600837D00B81504 /* RunloopViewController.xib in Resources */,
 				2095AF7225E4C2B0003FF5A6 /* FirstCell.xib in Resources */,
 				208365B325EF2D1E006AF9A5 /* GDMapViewController.xib in Resources */,
+				20B66B6025FDB7FC00B81504 /* HomeDicViewController.xib in Resources */,
+				20B66B7E25FE048900B81504 /* YYImageViewController.xib in Resources */,
 				2024837925F52952007B083C /* ScoketViewController.xib in Resources */,
 				2095AF4525E49F55003FF5A6 /* TableViewController.xib in Resources */,
 				2078E78325E8C5210080E572 /* AlertViewController.xib in Resources */,
@@ -766,12 +881,14 @@
 				20D19EEA25EF4152009A475B /* UIView+Toast.m in Sources */,
 				20D19F1425F109EB009A475B /* XYNUtils.m in Sources */,
 				2010EED425DF6B520084D1A8 /* BankObject.m in Sources */,
+				20B66B7225FDE71600B81504 /* XYNCycleView.m in Sources */,
 				209CEF9825C168B200854153 /* ThreadViewController.m in Sources */,
 				2008FCDE25E4D2A40028C611 /* GMTableViewDelegate.m in Sources */,
 				2010EECD25DF6A100084D1A8 /* KvocViewController.m in Sources */,
 				209EF84225EB560F0080DF4B /* Toast.m in Sources */,
 				2083659825EE3BFC006AF9A5 /* LockViewController.m in Sources */,
 				208365A825EF2C8C006AF9A5 /* MapViewController.m in Sources */,
+				20E26B5A25FC68D3008031B5 /* UserDefaultViewController.m in Sources */,
 				203DC7AB25F1E97700745FC6 /* XYNToastManager.m in Sources */,
 				2078E78225E8C5210080E572 /* AlertViewController.m in Sources */,
 				2024838025F52A7C007B083C /* GCDSocketManager.m in Sources */,
@@ -781,13 +898,18 @@
 				209CEF5B25C167FA00854153 /* ViewController.m in Sources */,
 				20D19F0E25F09706009A475B /* XYNTools.m in Sources */,
 				2095AF4425E49F55003FF5A6 /* TableViewController.m in Sources */,
+				20B66B892600837D00B81504 /* RunloopViewController.m in Sources */,
 				2095AF6425E4B39D003FF5A6 /* FirstModel.m in Sources */,
+				20B66B5F25FDB7FC00B81504 /* HomeDicViewController.m in Sources */,
+				20B66B6725FDE0F300B81504 /* FileUtils.m in Sources */,
 				209CEF5525C167FA00854153 /* AppDelegate.m in Sources */,
+				20B66B7D25FE048900B81504 /* YYImageViewController.m in Sources */,
 				2031C23E25F5CBFD001A5DE2 /* RocketSocketManager.m in Sources */,
 				2008FCD825E4D2320028C611 /* GMTableViewProtocol.m in Sources */,
 				209CEF6125C167FA00854153 /* XYNHomeSys.xcdatamodeld in Sources */,
 				2010EEC125DE7D7C0084D1A8 /* AFNetViewController.m in Sources */,
 				2024836325F21968007B083C /* XYNToastView.m in Sources */,
+				20E26B6A25FC6E79008031B5 /* UserModel.m in Sources */,
 				20D19EF925EF5014009A475B /* CSToastManager.m in Sources */,
 				2031C24425F608D1001A5DE2 /* MQTTManager.m in Sources */,
 				2024836925F21B5C007B083C /* XYNToastDefaultView.m in Sources */,
@@ -970,8 +1092,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = XYNHomeSys/XYNHomeSys.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G47U397BLU;
+				DEVELOPMENT_TEAM = "";
 				EXCLUDED_ARCHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/xyn/Desktop/XYNHomeSys/XYNHomeSys/Base/PrefixHeader.pch;
@@ -982,6 +1106,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xyn.XYNHomeSys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -992,6 +1117,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = XYNHomeSys/XYNHomeSys.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G47U397BLU;
 				EXCLUDED_ARCHS = "";
@@ -1004,6 +1131,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xyn.XYNHomeSys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
